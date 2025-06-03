@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>.space-3d{
+        width:100vw;
+        height:100vh;
+        position:relative;
+      }
+      .card1{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card1-front{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card1-back{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card1-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;}
+      
+      .card1-back{background-image:url(https://assets.codepen.io/13471/charizard-gx.webp);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;}
+      
+      .card1-front{
+        transform:rotateY(0deg);
+      }
+      .card1-back{
+        transform:rotateY(180deg);
+      }
+      .card1-front{
+        backface-visibility:hidden;
+      }
+      .card1-back{
+        backface-visibility:hidden;
+      }
+      .card1:hover .card1-front{
+        transform:rotateY(180deg);
+        backface-visibility:hidden;
+      }
+      .card1:hover .card1-back{
+        transform:rotateY(360deg);
+        backface-visibility:hidden;
+      }
+      
+      .card1-front,.card1-back{
+        transition:.5s;
+      }
+      .card1{
+        perspective:500px;
+      }
+      .space-3d{
+        width:100vw;
+        height:100vh;
+        position:relative;
+      }
+      .card2{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:50px;
+          
+      }
+      .card2-front{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card2-back{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card2-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;
+      left:300px;}
+      
+      .card2-back{background-image:url(https://assets.codepen.io/13471/pikachu-gx.webp);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;}
+      
+      .card2-front{
+        transform:rotateY(0deg);
+      }
+      .card2-back{
+        transform:rotateY(180deg);
+      }
+      .card2-front{
+        backface-visibility:hidden;
+      }
+      .card2-back{
+        backface-visibility:hidden;
+      }
+      .card2:hover .card2-front{
+        transform:rotateY(180deg);
+        backface-visibility:hidden;
+      }
+      .card2:hover .card2-back{
+        transform:rotateY(360deg);
+        backface-visibility:hidden;
+      }
+      
+      .card2-front,.card2-back{
+        transition:.5s;
+      }
+      .card2{
+        perspective:500px;
+      }
+      .space-3d{
+        width:100vw;
+        height:100vh;
+        position:relative;
+      }
+      .card3{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:450px;
+          
+      }
+      .card3-front{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card3-back{
+        width:300px;
+        height:420px;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin-left:auto;
+          
+      }
+      .card3-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;
+      left:300px;}
+      
+      .card3-back{background-image:url(https://assets.codepen.io/13471/eevee-gx.webp);
+      background-size:300px 420px;
+      background-repeat:no-repeat;
+      background-position:center;}
+      
+      .card3-front{
+        transform:rotateY(0deg);
+      }
+      .card3-back{
+        transform:rotateY(180deg);
+      }
+      .card3-front{
+        backface-visibility:hidden;
+      }
+      .card3-back{
+        backface-visibility:hidden;
+      }
+      .card3:hover .card3-front{
+        transform:rotateY(180deg);
+        backface-visibility:hidden;
+      }
+      .card3:hover .card3-back{
+        transform:rotateY(360deg);
+        backface-visibility:hidden;
+      }
+      
+      .card3-front,.card3-back{
+        transition:.5s;
+      }
+      .card3{
+        perspective:500px;
+      }
+      </STYLE>
+</head>
+<body>
+    <div class="space-3d">
+        <div class="card1">
+          <div class="card1-front"></div>
+          <div class="card1-back">
+            
+          </div>
+        </div>
+        <div class="card2">
+          <div class="card2-front"></div>
+          <div class="card2-back">
+            
+          </div>
+        </div>
+        <div class="card3">
+          <div class="card3-front"></div>
+          <div class="card3-back">
+            
+          </div>
+        </div>
+      </div>
+</body>
+</html>
