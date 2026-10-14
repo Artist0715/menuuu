@@ -1,258 +1,190 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <STYLE>.space-3d{
-        width:100vw;
-        height:100vh;
-        position:relative;
-      }
-      .card1{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card1-front{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card1-back{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card1-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;}
-      
-      .card1-back{background-image:url(https://assets.codepen.io/13471/charizard-gx.webp);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;}
-      
-      .card1-front{
-        transform:rotateY(0deg);
-      }
-      .card1-back{
-        transform:rotateY(180deg);
-      }
-      .card1-front{
-        backface-visibility:hidden;
-      }
-      .card1-back{
-        backface-visibility:hidden;
-      }
-      .card1:hover .card1-front{
-        transform:rotateY(180deg);
-        backface-visibility:hidden;
-      }
-      .card1:hover .card1-back{
-        transform:rotateY(360deg);
-        backface-visibility:hidden;
-      }
-      
-      .card1-front,.card1-back{
-        transition:.5s;
-      }
-      .card1{
-        perspective:500px;
-      }
-      .space-3d{
-        width:100vw;
-        height:100vh;
-        position:relative;
-      }
-      .card2{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:50px;
-          
-      }
-      .card2-front{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card2-back{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card2-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;
-      left:300px;}
-      
-      .card2-back{background-image:url(https://assets.codepen.io/13471/pikachu-gx.webp);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;}
-      
-      .card2-front{
-        transform:rotateY(0deg);
-      }
-      .card2-back{
-        transform:rotateY(180deg);
-      }
-      .card2-front{
-        backface-visibility:hidden;
-      }
-      .card2-back{
-        backface-visibility:hidden;
-      }
-      .card2:hover .card2-front{
-        transform:rotateY(180deg);
-        backface-visibility:hidden;
-      }
-      .card2:hover .card2-back{
-        transform:rotateY(360deg);
-        backface-visibility:hidden;
-      }
-      
-      .card2-front,.card2-back{
-        transition:.5s;
-      }
-      .card2{
-        perspective:500px;
-      }
-      .space-3d{
-        width:100vw;
-        height:100vh;
-        position:relative;
-      }
-      .card3{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:450px;
-          
-      }
-      .card3-front{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card3-back{
-        width:300px;
-        height:420px;
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        margin-left:auto;
-          
-      }
-      .card3-front{background-image:url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;
-      left:300px;}
-      
-      .card3-back{background-image:url(https://assets.codepen.io/13471/eevee-gx.webp);
-      background-size:300px 420px;
-      background-repeat:no-repeat;
-      background-position:center;}
-      
-      .card3-front{
-        transform:rotateY(0deg);
-      }
-      .card3-back{
-        transform:rotateY(180deg);
-      }
-      .card3-front{
-        backface-visibility:hidden;
-      }
-      .card3-back{
-        backface-visibility:hidden;
-      }
-      .card3:hover .card3-front{
-        transform:rotateY(180deg);
-        backface-visibility:hidden;
-      }
-      .card3:hover .card3-back{
-        transform:rotateY(360deg);
-        backface-visibility:hidden;
-      }
-      
-      .card3-front,.card3-back{
-        transition:.5s;
-      }
-      .card3{
-        perspective:500px;
-      }
-      </STYLE>
+    
+
+
+
+
+    <title>張媽媽好食館菜單</title>
+    <head>
+        <body>
+    <style>
+        .menu{
+            cursor: pointer;
+        }
+        .food{
+            display:flex;
+            cursor: pointer;
+        }
+        .yom{
+            flex: none;width: 25%;
+        }
+        .xia{
+            flex: none;width: 25%;
+        }
+        .niu{
+            flex: none;width: 25%;
+        }
+        .ten{
+            flex: none;width: 25%;
+        }
+        .desert{
+            display:flex;
+            display: none;
+            cursor: pointer;
+        }
+        .bo{
+            flex: none;width: 25%;
+        }
+        .pu{
+            flex: none;width: 25%;
+        }
+        .ba{
+            flex: none;width: 25%;
+        }
+        .drink{
+            display:flex;
+            display: none;
+            cursor: pointer;
+        }
+        .co{
+            flex: none;width: 25%;
+        }
+        .xu{
+            flex: none;width: 25%;
+        }
+        .red{
+            flex: none;width: 25%;
+        }
+
+    </style>
 </head>
 <body>
-    <div class="space-3d">
-        <div class="card1">
-          <div class="card1-front"></div>
-          <div class="card1-back">
+    <h1>張媽媽好食館菜單</h1>
+    <div class="menu">
+        <span onclick="f()">主食</span>
+        <span onclick="dess()">甜點</span>
+        <span onclick="dr()">飲料</span>
+    </div>
+    <hr>
+    <div class="food" id="foo">
+        <div class="yom" onclick="addtocart('岡山羊肉炒飯',380)" >岡山羊肉炒飯$380</div>
+        <div class="xia" onclick="addtocart('蝦仁炒飯',450)">蝦仁炒飯$450</div>
+        <div class="niu" onclick="addtocart('牛肉燴飯',350)">牛肉燴飯$350</div>
+        <div class="ten" onclick="addtocart('什錦大雜燴',200)">什錦大雜燴$200</div>
+        
+    </div>
+    <div class="desert" id="des">
+        <div class="bo" onclick="addtocart('布郎尼想怎樣',210)">布郎尼想怎樣$210</div>
+        <div class="pu" onclick="addtocart('手作布丁',180)">手作布丁$180</div>
+        <div class="pa" onclick="addtocart('抹茶巴斯克',170)">抹茶巴斯克$170</div>
+    </div >
+    <div class="drink" id="dri">
+        <div class="co" onclick="addtocart('可樂',75)">可樂$75</div>
+        <div class="xu" onclick="addtocart('雪碧',60)">雪碧$60</div>
+        <div class="red" onclick="addtocart('無糖紅茶',120)">無糖紅茶$120</div>
+    </div>
+    <div style="padding: 20px;background-color: #f9f9f9;border: 1px solid #ddd;
+    margin-top: 20px;">
+        <h3>我的購物車<button onclick="clean()">重新點餐</button></h3>
+        
+        <div id="cart-list" style="margin-bottom: 10px;color: #555;" >尚未點餐</div>
+        <h4 style="color: red;">總金額<span id="total-price">0</span>元</h4>
+        <button onclick="coupon()">優惠碼輸入</button>
+    </div>
+<script>
+    let mycart="";
+    let totalprice=0;
+    let cou=false;
+    
+    function addtocart(foodname,price){
+        mycart=mycart+foodname+"1份（"+price+"元）<br>";
+        totalprice=totalprice+price;
+        
+        let currentprice=totalprice;
+        let discounttext=""
+        if(totalprice>2000){
+            currentprice=totalprice*0.9;
+            discounttext="<b style='color:green'>已滿2000享9折</b>"
+
+            }
+        if(cou===true){
+            currentprice=currentprice*0.8;
+            discounttext="<b>優惠8折</b>"
+        }
+        
+        document.querySelector("#cart-list").innerHTML=mycart+discounttext;
+         
+    
+         document.querySelector("#total-price").innerHTML=currentprice;}
+        
+    function coupon(){
+        let password=window.prompt("請輸入優惠碼","")
+        if(password==="mamagood") {
+            cou=true;
+            let runningprice=totalprice
+            if(totalprice>2000){
+                
+                runningprice=totalprice*0.9}
             
-          </div>
-        </div>
-        <div class="card2">
-          <div class="card2-front"></div>
-          <div class="card2-back">
             
-          </div>
-        </div>
-        <div class="card3">
-          <div class="card3-front"></div>
-          <div class="card3-back">
+            let finalprice=runningprice*0.8
+            document.querySelector("#total-price").innerHTML=finalprice
+            document.querySelector("#cart-list").innerHTML=mycart+"<b style='color:green'>享滿額9折及優惠8折</b>"
+            }
+        else{
+            window.alert("輸入錯誤");
+        }
+    
+
+    }
+    function f(){
+        let dessertdiv=document.querySelector("#des");
+        let fooddiv=document.querySelector("#foo");
+        let drinkdiv=document.querySelector("#dri");
+        dessertdiv.style.display="none";
+        fooddiv.style.display="flex";
+        drinkdiv.style.display="none";
+    }
+    function dess(){
+        let dessertdiv=document.querySelector("#des");
+        let fooddiv=document.querySelector("#foo");
+        let drinkdiv=document.querySelector("#dri");
+        dessertdiv.style.display="flex";
+        fooddiv.style.display="none";
+        drinkdiv.style.display="none";
+    }
+    function dr(){
+        let dessertdiv=document.querySelector("#des");
+        let fooddiv=document.querySelector("#foo");
+        let drinkdiv=document.querySelector("#dri");
+        dessertdiv.style.display="none";
+        fooddiv.style.display="none";
+        drinkdiv.style.display="flex";
+    }
+    function clean(){
+        cou=false;
+        mycart="";
+        totalprice=0;
+        document.querySelector("#cart-list").innerHTML="尚未點餐";
+        document.querySelector("#total-price").innerHTML=0;
+    }
+    let runningprice=totalprice
+        if(totalprice>2000){
             
-          </div>
-        </div>
-      </div>
+            runningprice=totalprice*0.9}
+        
+        
+        let finalprice=runningprice*0.8
+        document.querySelector("#total-price").innerHTML=finalprice
+        document.querySelector("#cart-list").innerHTML=mycart+"<b style='color:green'>享滿額9折及優惠8折</b>"
+    
+
+
+    
+</script> 
 </body>
 </html>
