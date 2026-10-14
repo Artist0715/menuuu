@@ -171,8 +171,7 @@
         totalprice=0;
         document.querySelector("#cart-list").innerHTML="尚未點餐";
         document.querySelector("#total-price").innerHTML=0;
-    }
-    let runningprice=totalprice
+        let runningprice=totalprice
         if(totalprice>2000){
             
             runningprice=totalprice*0.9}
@@ -181,6 +180,8 @@
         let finalprice=runningprice*0.8
         document.querySelector("#total-price").innerHTML=finalprice
         document.querySelector("#cart-list").innerHTML=mycart+"<b style='color:green'>享滿額9折及優惠8折</b>"
+    }
+
     
 
 
